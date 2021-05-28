@@ -1,0 +1,141 @@
+.second-container {
+  background-color: ghostwhite;
+  margin-top: 2%;
+  margin-left: 20px;
+  margin-right: 40px;
+  width: 95vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.info-portion {
+  padding-left: 10px;
+  padding-right: 10px;
+  flex: 30%;
+
+  h1 {
+    font-family: "Antonio", sans-serif;
+    letter-spacing: 2.5px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+div {
+  opacity: 1;
+  p {
+    font-size: 22;
+    text-indent: 30px;
+    font-family: "Helvetica", "Arial", "sans-serif";
+  }
+}
+
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/header.png);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 680px;
+  width: 100vw;
+  margin-left: -10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 680px;
+}
+#centerContainerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-65%, -50%);
+  background-color: rgba(130, 130, 130, 0.5);
+  animation: type 4s steps(22);
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: "Inconsolata", monospace;
+  border-right: 4px solid black;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 29ch;
+  }
+}
+
+#ptec1 {
+  color: purple;
+}
+
+#ptec1:visited {
+  color: red;
+}
+
+#second-head {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  color: black;
+}
+
+.slider {
+  width: 1000px;
+  min-height: 760px;
+  background: url(../images/Image.1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: slide 30s infinite ease-in-out;
+  margin-right: 15px;
+  margin-top: 15px;
+  transition: ease-in-out;
+  flex: 67%;
+}
+
+@keyframes slide {
+  12.5% {
+    background: url(../images/Image.1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  25% {
+    background: url(../images/image.2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  37.5% {
+    background: url(../images/image.3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url(../images/image.4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  62.5% {
+    background: url(../images/image.5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  75% {
+    background: url(../images/image.6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  87.5% {
+    background: url(../images/image.7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url(../images/image.8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
