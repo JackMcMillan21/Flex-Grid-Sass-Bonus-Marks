@@ -2,33 +2,23 @@
 
 <head>
     <title>About Jack McMillan</title>
-    <!-- declaring charset as UTF-8 maakes it so that the webbrowser uses the UTF-8 charecter which is a method that converts the characters into machine-readable code -->
     <meta charset="utf-8" />
-
-    <!-- Setting the viewport meta tag lets you control the width and scaling of the viewport so that it's sized correctly on all devices. -->
     <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
-
-    <!-- Setting the viewport meta tag lets you control the width and scaling of the viewport so that it's sized correctly on all devices. -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/extra-heading.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/extra-work-relation.css" />
 
-    <!-- This next portioon of code is used to import fonts from google so that they can use a font that isn't supported by just VS code -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/extra-heading.css" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
 
-    <!-- This next portion of code is just some internal styling that is used to put the list items in certain spaces so that they look proper in the nav bar -->
     <style>
         li {
             padding: 5px;
             margin-right: 20px;
             font-size: 20px;
             float: left;
-        }
-
-        #image-2-text {
-            text-indent: none;
         }
     </style>
 
@@ -37,9 +27,7 @@
 
 <body>
     <header>
-        <!-- Just a header with my name in it, I also use the span tag to change the color of one of the words -->
         <h1 id="header-text">Jack<span style="color: rgb(17,60,149);">McMillan</span></h1>
-        <!-- This portion of code is used for the navigation between the pages and the buttons, -->
         <nav>
             <ul>
                 <li>
@@ -56,17 +44,15 @@
         </nav>
     </header>
     <main>
-        <!-- This portion of code is just a heading at the top of the page -->
-        <h1 id="title">Projects And Work Experience</h1>
-        <!-- This portion of code is just a container that holds almost all of the content on the page -->
-        <div id="center-container">
-            <!-- This portion of code is a container that is on the left and holds on the text and images -->
-            <div id="left-box">
-                <!-- This portion of code is a container that holds all of the text including the heading and paragraph -->
-                <div class="line-1 text" style="padding-bottom: 35px;">
+        <div id="main">
+            <div class="spacer-with-title">
+                <h1 id="title">Projects And Work Experience</h1>
+            </div>
+            <div class="gallery">
+                <div class="text-div">
                     <h2>Final Game Assesment</h2>
                     <p>
-                        The images that you are seing on the left hand side are from a game that me and another student
+                        The image that you are seing on the right hand side is from a game that me and another student
                         made
                         from scratch and with no external help at all. For this game we were asked to make any game with
                         small
@@ -80,71 +66,79 @@
                         very well.
                     </p>
                 </div>
-                <!-- This portion of code is a container that includes a image -->
-                <div id="image-1"><img id="image-3" src="images\FFpic.3.png" /></div>
-                <!-- This portion of code is a container that holds all of the text including the heading and paragraph -->
-                <div class="line-3 text" style="padding-top: 35px; padding-bottom: 35px;">
+                <div class="image-div">
+                    <img class="image-styling" src="images\FFpic.1.png" />
+                </div>
+                <div class="image-div">
+                    <img class="image-styling" src="images\FFpic.3.png" />
+                </div>
+                <div class="text-div">
+
+                    <h2>3D Modelling Project 1</h2>
+                    <p>
+                        For this second project every Friday we would have an opportunity to work on whatever we wanted.
+                        I decided that
+                        I wanted to learn about 3d animation. The software I used was called
+                        blender and I learned a majority of the basic animation principles when relating to humans and
+                        how they move.
+                        Although I had great successes throughout the time I spent on this project, it unfortunatly
+                        ended in
+                        a defeat when I wasn't able to make the upper half of the body move in the way that I had
+                        planned.
+                        Although it failed I learned from my mistakes and was able to learn how to use a majority of the
+                        animation
+                        tools very fluently. I am very proud of this project because I think that blender can be very
+                        difficult to
+                        use when people are first getting introduced to it like me, but I feel that I was able to get
+                        the hang of it quite quickly.
+                    </p>
+                </div>
+                <div class="text-div">
                     <h2>3D Modelling Project 2</h2>
                     <p>
                         As stated above every Friday we have an opportunity to work on whatever we wanted and this
                         is the second project that I worked on. Instead of continuing to learn about animation, I
                         thought that I would go more down the path of 3d modelling. I used the same software as before
                         and I continue to be comfortable with it. I learned how to use an abundant amount of the
-                        tools that the software provides but I did this over the course of 6 weeks. I wouldn't have nearly enough 
-                        time to learn all of the tools. I am very proud of this second project because I feel like I was able to not 
-                        follow a tutorial and use my skills by just knwoing how the tools operate the make something quite significant. 
-                        I also spent a lot of time outside of class on it because I enjoyed it this type of modelling so much. 
+                        tools that the software provides but I did this over the course of 6 weeks. I wouldn't have
+                        nearly
+                        enough
+                        time to learn all of the tools. I am very proud of this second project because I feel like I was
+                        able to
+                        not
+                        follow a tutorial and use my skills by just knwoing how the tools operate the make something
+                        quite
+                        significant. 
+                        I also spent a lot of time outside of class on it because I enjoyed it this type of modelling so
+                        much. 
                     </p>
                 </div>
-                <!-- This portion of code is a container that includes a image -->
-                <div id="image-4"><img src="images\FFpic.4.png" /></div>
-            </div>
-            <!-- This portion of code is just another container that is inside of the other container that is on the right -->
-            <div id="right-box">
-                <div id="cf">
-                    <div id="image-2-text">
-                        <p>Hover Over Image To Change</p>
-                    </div><img class="bottom" src="images\FFpic.2.png" />
-                    <img class="top" src="images\FFpic.1.png" />
+                <div class="image-div">
+                    <img class="image-styling" src="images\FFpic.4.png" />
                 </div>
-                <div class="line-2" style="padding-top: 35px; padding-bottom: 35px;">
-                    <div class="line-2-text">
-                        <h2>3D Modelling Project 1</h2>
-                        <p>
-                            For this second project every Friday we would have an opportunity to work on whatever we wanted.
-                            I decided that
-                            I wanted to learn about 3d animation. The software I used was called
-                            blender and I learned a majority of the basic animation principles when relating to humans and
-                            how they move.
-                            Although I had great successes throughout the time I spent on this project, it unfortunatly
-                            ended in
-                            a defeat when I wasn't able to make the upper half of the body move in the way that I had
-                            planned.
-                            Although it failed I learned from my mistakes and was able to learn how to use a majority of the
-                            animation
-                            tools very fluently. I am very proud of this project because I think that blender can be very
-                            difficult to
-                            use when people are first getting introduced to it like me, but I feel that I was able to get
-                            the hang of it quite quickly.
-                        </p>
-                    </div>
+                <!-- I just have a photo of image unavailable because I dont have a picture of my certificate but I will be getting it soon -->
+                <div class="image-div">
+                    <img class="image-styling" src="images\image-unavailable.png" />
                 </div>
-                <div id="image-4"><img src="images\FFpic.4.png" /></div>
-                <div style="padding-top: 35px;">
-                <h2>Lift Certificate</h2>
-                <p id="lift-text" style="padding-top: 35px; padding-bottom: 35px;">
-                    Lastly I will be talking about a certificate I revieved proving my ethics when it comes to any situation I approach.
-                    This was not much of a project as it was a course. It was something that I went through at school through a class 
-                    I was taking at the time called life works.It is a  very helpful to
-                    students and I defiantly think that this is an important course in high school. This course has
-                    taught me a
-                    lot about ethics and ethical decision-making overall. I think that I could use the skills that I've
-                    learned from this course to my advantage in the workplace, school, home etc. I am proud of this
-                    certification because it was lots of work going through this course with assignments and a final
-                    project.
-                </p>
+                <div class="text-div">
+                    <h2>Lift Certificate</h2>
+                    <p>
+                        Lastly I will be talking about a certificate I revieved proving my ethics when it comes to any
+                        situation I approach.
+                        This was not much of a project as it was a course. It was something that I went through at
+                        school
+                        through a class
+                        I was taking at the time called life works.It is a very helpful to
+                        students and I defiantly think that this is an important course in high school. This course has
+                        taught me a
+                        lot about ethics and ethical decision-making overall. I think that I could use the skills that
+                        I've
+                        learned from this course to my advantage in the workplace, school, home etc. I am proud of this
+                        certification because it was lots of work going through this course with assignments and a final
+                        project.
+                    </p>
+                </div>
             </div>
-        </div>
         </div>
     </main>
 </body>
